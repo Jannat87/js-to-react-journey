@@ -3,6 +3,7 @@
 ## js basic
 
 - js output
+ - alert() : JavaScript-এর একটি built-in function, যেটা ব্যবহার করে browser-এ একটা popup message box দেখানো হয়।
 - js operators
 - js conditions
 - js loop
