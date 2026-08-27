@@ -4,6 +4,7 @@
 
 - js output
     - alert() : JavaScript-এর একটি built-in function, যেটা ব্যবহার করে browser-এ একটা popup message box দেখানো হয়।
+    - document.write() : JavaScript-এর একটি method, যেটা দিয়ে সরাসরি webpage/document-এর মধ্যে কিছু লেখা যায়। 
 - js operators
 - js conditions
 - js loop
