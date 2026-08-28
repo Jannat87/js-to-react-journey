@@ -1,43 +1,45 @@
-// 1. console.log() *
+// // 1. console.log() *
 
-console.log("Hello World");
+// console.log("Hello World");
 
-// 2. document.write()
+// // 2. document.write()
 
-document.write("Hello Bina");
+// document.write("Hello Bina");
 
-// 3. alert()
+// // 3. alert()
 
-alert("missing the black belt");
+// alert("missing the black belt");
 
-// 4. innerHTML *
+// // 4. innerHTML *
 
-<p id="demo"></p>
-document.getElementById("demo").innerHTML = "Summer vacation";
+// <p id="demo1"></p>
+// document.getElementById("demo1").innerHTML = "Summer vacation";
 
-// 5. textContent *
+// // 5. textContent *
 
-/*<p id="demo"></p>
-document.getElementById("demo").textContent = "Winter vacation";*/
+// <p id="demo2"></p>
+// document.getElementById("demo2").textContent = "Winter vacation";
 
-// 6. console.error()
+// // 6. console.error()
 
-console.error("Somethingggg went wrong!!!!!!!");
+// console.error("Somethingggg went wrong!!!!!!!");
 
-// 7. console.warn()
+// // 7. console.warn()
 
-console.warn("This is a  serious warning!!!!!!!!!");
+// console.warn("This is a  serious warning!!!!!!!!!");
 
-// 8. console.table()
+// // 8. console.table()
 
-let student = {
-    name: "Jannat",
-    age: 22,
-    city: "Dhaka"
-};
+// let student = {
+//     name: "Jannat",
+//     age: 22,
+//     city: "Dhaka"
+// };
 
-console.table(student);
+// console.table(student);
 
 // 9. console.info()
 
-console.info("Website loaded successfully!1111111111111111");
+// console.info("Website loaded successfully!1111111111111111");
+
+console.log(Object.getOwnPropertyNames(document.prototype));
