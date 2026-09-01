@@ -24,7 +24,7 @@
     Operator : Operator হলো এমন একটি symbol, যার মাধ্যমে আমরা কোনো operation বা কাজ করতে পারি।
 
     জাভাস্ক্রিপ্টে প্রধান অপারেটরগুলো কী কী?
-    
+
     Arithmetic Operators: গাণিতিক কাজের জন্য (+, -, *, /, %, ** - Exponentiation)।Assignment Operators: মান অ্যাসাইন করার জন্য (=, +=, -=, *=, /=)।Comparison Operators: তুলনা করার জন্য (==, ===, !=, !==, >, <, >=, <=)।Logical Operators: লজিক চেক করার জন্য (&& - AND, || - OR, ! - NOT)।Type Operators: টাইপ চেক করার জন্য (typeof, instanceof)।
 
 - js conditions
@@ -36,6 +36,18 @@
     Primitive: এগুলো সরাসরি ভেরিয়েবলের মেমোরি লোকেশনে মান (Value) জমা রাখে। যেমন: String, Number, Boolean, Undefined, Null ইত্যাদি। এগুলো immutable (পরিবর্তন অযোগ্য)
 
     ।Non-Primitive: এগুলো মেমোরিতে সরাসরি মান না রেখে একটি রেফারেন্স (Address) জমা রাখে। যেমন: Object, Array।
+
+    String Concatenation বনাম Addition:
+
+    + অপারেটর দেখলে জাভাস্ক্রিপ্ট সংখ্যাটিকেও স্ট্রিং বানিয়ে কনক্যাটিনেট (জোড়া দেওয়া) করে। কিন্তু - অপারেটর স্ট্রিংয়ের ক্ষেত্রে কাজ করে না, তাই জাভাস্ক্রিপ্ট ভেতরের স্ট্রিংটিকে সংখ্যায় রূপান্তর করে বিয়োগ করে।
+
+    Increment / Decrement (++ এবং --):
+
+    x++ (Post-increment) আগে মান y-তে অ্যাসাইন করে, তারপর x-এর মান বাড়ায়। আর ++a (Pre-increment) আগে a-এর মান বাড়ায়, তারপর সেই বর্ধিত মান b-তে অ্যাসাইন করে।
+
+    Logical OR (||) এবং Nullish Coalescing (??):
+
+    || অপারেটর বামপাশের মানটি Falsy (যেমন: 0, "", false, null, undefined) হলে ডানপাশের মানটি নেয়। যেহেতু 0 একটি Falsy ভ্যালু, তাই সে 10 নিয়েছে।কিন্তু ?? অপারেটর শুধু null অথবা undefined হলেই ডানপাশে যায়, 0 বা "" হলে বামপাশের মানটিই রেখে দেয়।
 
 - js function
 - js object
