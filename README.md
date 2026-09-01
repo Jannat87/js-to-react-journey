@@ -2,7 +2,7 @@
 
 ## js basic
 
-- js output
+### js output
     - console.log() : JavaScript-এর সবচেয়ে বেশি ব্যবহৃত built-in method। এটা দিয়ে Browser-এর Console-এ কোনো value, message বা data দেখানো হয়।
     - document.write() : JavaScript-এর একটি method, যেটা দিয়ে সরাসরি webpage/document-এর মধ্যে কিছু লেখা যায়।
     - alert() : JavaScript-এর একটি built-in function, যেটা ব্যবহার করে browser-এ একটা popup message box দেখানো হয়।
@@ -12,40 +12,39 @@
     - console.warn() : JavaScript-এর একটি built-in method, যেটা Browser-এর Console-এ warning message দেখানোর জন্য ব্যবহার করা হয়।
     - console.table() : JavaScript-এর একটি built-in method, যেটা data-কে Browser Console-এ table বা ছকের আকারে দেখায়।
     - console.info() : JavaScript-এর একটি built-in method, যেটা Browser-এর Console-এ informational message দেখানোর জন্য ব্যবহার করা হয়।
-- js variable
-    - variable : Variable হলো এমন একটি নাম/Container যেখানে আমরা কোনো data বা value সংরক্ষণ করতে পারি।
-        1. var : var holo akti keyword ja দিয়ে variable তৈরি করা যায় এবং সেই variable-এর value পরে পরিবর্তন করা যায়।  
-        2. let : যে variable-এর value পরে পরিবর্তন হতে পারে|
-        3. const : যে variable-এর value পরে পরিবর্তন করা যাবে না|
+### js variable
+    variable : Variable হলো এমন একটি নাম/Container যেখানে আমরা কোনো data বা value সংরক্ষণ করতে পারি।
+- var : var holo akti keyword ja দিয়ে variable তৈরি করা যায় এবং সেই variable-এর value পরে পরিবর্তন করা যায়।  
+- let : যে variable-এর value পরে পরিবর্তন হতে পারে|
+- const : যে variable-এর value পরে পরিবর্তন করা যাবে না|
 
-    Variable-এ বিভিন্ন ধরনের data রাখা যায়| Jamon : String, Number, Boolean, Array, Object.
+    [Variable-এ বিভিন্ন ধরনের data রাখা যায়| Jamon : String, Number, Boolean, Array, Object.]
      
-- js operators
-    Operator : Operator হলো এমন একটি symbol, যার মাধ্যমে আমরা কোনো operation বা কাজ করতে পারি।
+### js operators
+Operator হলো এমন একটি symbol, যার মাধ্যমে আমরা কোনো operation বা কাজ করতে পারি।
 
-    জাভাস্ক্রিপ্টে প্রধান অপারেটরগুলো কী কী?
+জাভাস্ক্রিপ্টে প্রধান অপারেটরগুলো কী কী?
 
-    - Arithmetic Operators: গাণিতিক কাজের জন্য (+, -, *, /, %, 
+- Arithmetic Operators: গাণিতিক কাজের জন্য (+, -, *, /, %, 
         **- Exponentiation)।
-    - Assignment Operators: মান অ্যাসাইন করার জন্য (=, +=, 
+- Assignment Operators: মান অ্যাসাইন করার জন্য (=, +=, 
         -=,*=, /=)।
-    - Comparison Operators: তুলনা করার জন্য (==, ===, !=, !==, 
+- Comparison Operators: তুলনা করার জন্য (==, ===, !=, !==, 
         >, <, >=, <=)।
-    - Logical Operators: লজিক চেক করার জন্য (&& - AND, || - OR, 
+- Logical Operators: লজিক চেক করার জন্য (&& - AND, || - OR, 
         ! - NOT)।
-    - Type Operators: টাইপ চেক করার জন্য (typeof, instanceof)।
+- Type Operators: টাইপ চেক করার জন্য (typeof, instanceof)।
 
-- js conditions
-- js loop
-- js datatype
+### js conditions
+### js loop
+### js datatype
+Primitive বনাম Non-Primitive ডাটা টাইপের মধ্যে পার্থক্য কী?
 
-    Primitive বনাম Non-Primitive ডাটা টাইপের মধ্যে পার্থক্য কী?
-
-    Primitive: এগুলো সরাসরি ভেরিয়েবলের মেমোরি লোকেশনে মান (Value) জমা রাখে। যেমন: String, Number, Boolean, Undefined, Null ইত্যাদি। এগুলো immutable (পরিবর্তন অযোগ্য)|
+- Primitive: এগুলো সরাসরি ভেরিয়েবলের মেমোরি লোকেশনে মান (Value) জমা রাখে। যেমন: String, Number, Boolean, Undefined, Null ইত্যাদি। এগুলো immutable (পরিবর্তন অযোগ্য)|
     
-    Non-Primitive: এগুলো মেমোরিতে সরাসরি মান না রেখে একটি রেফারেন্স (Address) জমা রাখে। যেমন: Object, Array।
+- Non-Primitive: এগুলো মেমোরিতে সরাসরি মান না রেখে একটি রেফারেন্স (Address) জমা রাখে। যেমন: Object, Array।
 
-    String Concatenation বনাম Addition:
+String Concatenation বনাম Addition:
 
     + অপারেটর দেখলে জাভাস্ক্রিপ্ট সংখ্যাটিকেও স্ট্রিং বানিয়ে কনক্যাটিনেট (জোড়া দেওয়া) করে। কিন্তু - অপারেটর স্ট্রিংয়ের ক্ষেত্রে কাজ করে না, তাই জাভাস্ক্রিপ্ট ভেতরের স্ট্রিংটিকে সংখ্যায় রূপান্তর করে বিয়োগ করে।
 
