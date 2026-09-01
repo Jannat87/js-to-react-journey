@@ -14,7 +14,7 @@
     - console.info() : JavaScript-এর একটি built-in method, যেটা Browser-এর Console-এ informational message দেখানোর জন্য ব্যবহার করা হয়।
 - js variable
     - variable : Variable হলো এমন একটি নাম/Container যেখানে আমরা কোনো data বা value সংরক্ষণ করতে পারি।
-        1. var : যে variable-এর value পরে পরিবর্তন হতে পারে| var holo akti undefined keyword| kono keyword define na kora thakle sekhane auto var keyword kaj kore|
+        1. var : var holo akti keyword ja দিয়ে variable তৈরি করা যায় এবং সেই variable-এর value পরে পরিবর্তন করা যায়।  
         2. let : যে variable-এর value পরে পরিবর্তন হতে পারে|
         3. const : যে variable-এর value পরে পরিবর্তন করা যাবে না|
 
@@ -25,7 +25,15 @@
 
     জাভাস্ক্রিপ্টে প্রধান অপারেটরগুলো কী কী?
 
-    Arithmetic Operators: গাণিতিক কাজের জন্য (+, -, *, /, %, ** - Exponentiation)।Assignment Operators: মান অ্যাসাইন করার জন্য (=, +=, -=, *=, /=)।Comparison Operators: তুলনা করার জন্য (==, ===, !=, !==, >, <, >=, <=)।Logical Operators: লজিক চেক করার জন্য (&& - AND, || - OR, ! - NOT)।Type Operators: টাইপ চেক করার জন্য (typeof, instanceof)।
+    - Arithmetic Operators: গাণিতিক কাজের জন্য (+, -, *, /, %, 
+        **- Exponentiation)।
+    - Assignment Operators: মান অ্যাসাইন করার জন্য (=, +=, 
+        -=,*=, /=)।
+    - Comparison Operators: তুলনা করার জন্য (==, ===, !=, !==, 
+        >, <, >=, <=)।
+    - Logical Operators: লজিক চেক করার জন্য (&& - AND, || - OR, 
+        ! - NOT)।
+    - Type Operators: টাইপ চেক করার জন্য (typeof, instanceof)।
 
 - js conditions
 - js loop
@@ -33,9 +41,9 @@
 
     Primitive বনাম Non-Primitive ডাটা টাইপের মধ্যে পার্থক্য কী?
 
-    Primitive: এগুলো সরাসরি ভেরিয়েবলের মেমোরি লোকেশনে মান (Value) জমা রাখে। যেমন: String, Number, Boolean, Undefined, Null ইত্যাদি। এগুলো immutable (পরিবর্তন অযোগ্য)
-
-    ।Non-Primitive: এগুলো মেমোরিতে সরাসরি মান না রেখে একটি রেফারেন্স (Address) জমা রাখে। যেমন: Object, Array।
+    Primitive: এগুলো সরাসরি ভেরিয়েবলের মেমোরি লোকেশনে মান (Value) জমা রাখে। যেমন: String, Number, Boolean, Undefined, Null ইত্যাদি। এগুলো immutable (পরিবর্তন অযোগ্য)|
+    
+    Non-Primitive: এগুলো মেমোরিতে সরাসরি মান না রেখে একটি রেফারেন্স (Address) জমা রাখে। যেমন: Object, Array।
 
     String Concatenation বনাম Addition:
 
