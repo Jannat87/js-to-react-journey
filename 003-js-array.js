@@ -4,5 +4,6 @@ console.log(marks);
 let fruits = ["Apple", "Mango", "Banana"];
 console.log(fruits[0]);
 
-fruits.push("Orange");
+fruits.push("Oranges");
+
 console.log(fruits);
