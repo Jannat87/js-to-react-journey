@@ -14,7 +14,7 @@
     - console.info() : JavaScript-এর একটি built-in method, যেটা Browser-এর Console-এ informational message দেখানোর জন্য ব্যবহার করা হয়।
 ### js variable
     variable : Variable হলো এমন একটি নাম/Container যেখানে আমরা কোনো data বা value সংরক্ষণ করতে পারি।
-- var : var holo akti keyword ja দিয়ে variable তৈরি করা যায় এবং সেই variable-এর value পরে পরিবর্তন করা যায়।  
+- var : var হল একটি keyword যা দিয়ে variable তৈরি করা যায় এবং সেই variable-এর value পরে পরিবর্তন করা যায়।  
 - let : যে variable-এর value পরে পরিবর্তন হতে পারে|
 - const : যে variable-এর value পরে পরিবর্তন করা যাবে না|
 
@@ -26,7 +26,7 @@ Operator হলো এমন একটি symbol, যার মাধ্যম�
 জাভাস্ক্রিপ্টে প্রধান অপারেটরগুলো কী কী?
 
 - Arithmetic Operators: গাণিতিক কাজের জন্য (+, -, *, /, %, 
-        **- Exponentiation)।
+**- Exponentiation)।
 - Assignment Operators: মান অ্যাসাইন করার জন্য (=, +=, 
         -=,*=, /=)।
 - Comparison Operators: তুলনা করার জন্য (==, ===, !=, !==, 
