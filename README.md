@@ -18,12 +18,12 @@
 - let : যে variable-এর value পরে পরিবর্তন হতে পারে|
 - const : যে variable-এর value পরে পরিবর্তন করা যাবে না|
 
-    [Variable-এ বিভিন্ন ধরনের data রাখা যায়| Jamon : String, Number, Boolean, Array, Object.]
+    [Variable-এ বিভিন্ন ধরনের data রাখা যায়| যেমন : String, Number, Boolean, Array, Object.]
      
 ### js operators
 Operator হলো এমন একটি symbol, যার মাধ্যমে আমরা কোনো operation বা কাজ করতে পারি।
 
-জাভাস্ক্রিপ্টে প্রধান অপারেটরগুলো কী কী?
+Javascript এ প্রধান operator গুলো কী কী?
 
 - Arithmetic Operators: গাণিতিক কাজের জন্য (+, -, *, /, %, 
 **- Exponentiation)।
@@ -61,21 +61,21 @@ Logical OR (||) এবং Nullish Coalescing (??):
 - js scope
 ### js array
 
-Array: Array হলো JavaScript-এর একটি data structure, যেখানে আমরা একটি variable-এর মধ্যে একাধিক value সংরক্ষণ করতে পারি।
+Array: Array হলো এক ধরনের data structure, যেখানে আমরা একটি variable-এর মধ্যে একাধিক value সংরক্ষণ করতে পারি।
 
-অ্যারে হলো ডেটা সংগ্রহ সংরক্ষণের জন্য ডিজাইন করা একটি অবজেক্ট টাইপ।
+Array হলো data সংগ্রহ সংরক্ষণের জন্য design করা একটি object টাইপ।
 
-জাভাস্ক্রিপ্ট অ্যারের প্রধান বৈশিষ্ট্যগুলো হলো:
+Javascript Array এর প্রধান বৈশিষ্ট্যগুলো হলো:
 
-- এলিমেন্ট: অ্যারে হলো বিভিন্ন মানের একটি তালিকা, যা এলিমেন্ট নামে পরিচিত।
+- Element: Array হলো বিভিন্ন মানের একটি তালিকা, যা element নামে পরিচিত।
 
-- ক্রমবদ্ধ: অ্যারের এলিমেন্টগুলো তাদের ইনডেক্স অনুসারে সাজানো থাকে।
+- Ordered: Array এর element গুলো তাদের index অনুসারে সাজানো থাকে।
 
-- জিরো ইনডেক্সড: প্রথম এলিমেন্টটি ইনডেক্স ০-তে, দ্বিতীয়টি ইনডেক্স ১-এ এবং এভাবেই চলতে থাকে।
+- Zero index: প্রথম element index 0-তে, দ্বিতীয়টি index 1-এ এবং এভাবেই চলতে থাকে।
 
-- পরিবর্তনশীল আকার: এলিমেন্ট যোগ বা অপসারণ করার ফলে অ্যারের আকার বাড়তে বা কমতে পারে।
+- Dynamic size: Element যোগ বা অপসারণ করার ফলে array র আকার বাড়তে বা কমতে পারে।
 
-- বিভিন্ন ধরনের ডেটা টাইপের (সংখ্যা, স্ট্রিং, অবজেক্ট এবং অন্যান্য অ্যারে) এলিমেন্ট অ্যারেতে সংরক্ষণ করা যায়।    
+- Heterogeneous: বিভিন্ন ধরনের data type এর (Number, String, Object এবং অন্যান্য array) element array তে সংরক্ষণ করা যায়।    
 
 - js DOM
 - js events
